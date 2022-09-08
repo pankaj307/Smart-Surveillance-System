@@ -1,0 +1,1 @@
+Trained Images will be stored here.
