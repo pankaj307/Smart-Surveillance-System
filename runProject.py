@@ -104,11 +104,11 @@ def generateEmail(date, time, imageCount):
             print('Notification to {} could not be sent :( because {}\n\n'.format(receiverEmail, str(e)))
 
     yourName = 'Smart Surveillance System'
-    yourEmail = 'pankajkushwah098@gmail.com'
-    yourPassword = 'pankaj@30798'
+    yourEmail = 'example@mail.com'
+    yourPassword = '************'
     subject = 'Security Problem'
     receiverName = 'Admin'
-    receiverEmail = 'pankushwah123@gmail.com'
+    receiverEmail = 'example2@mail.com'
 
     notification = ("From: {0} <{1}>\nTo: {2} <{3}>\nSubject: {4}\n\n"
                      "Warning!\nThere is a unknown person detected in your home.\n\nDate: {5}\nTime: {6}")\
