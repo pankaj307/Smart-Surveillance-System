@@ -7,9 +7,9 @@ import datetime
 import time
 
 def SendMail():
-    yourEmail = 'pankajkushwah098@gmail.com'
-    yourPassword = 'pankaj@30798'
-    receiverEmail = 'pankushwah123@gmail.com'
+    yourEmail = 'example@mail.com'
+    yourPassword = '************'
+    receiverEmail = 'example2@mail.com'
 
 
     msg = MIMEMultipart()
