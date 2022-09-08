@@ -3,8 +3,8 @@ import smtplib
 
 yourName = 'Security Problem'
 
-yourEmail = 'pankajkushwah098@gmail.com'
-yourPassword = 'pankaj@30798'
+yourEmail = 'example@email.com'
+yourPassword = '************'
 
 server = smtplib.SMTP_SSL('smtp.gmail.com', 465)
 
